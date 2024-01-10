@@ -64,8 +64,8 @@ export default function Product() {
                     <td>
                       <span className={styles.salePrice}>
                         {product.price.toLocaleString()}원
-                      </span>{" "}
-                      {product.salePrice.toLocaleString()}원
+                        {product.salePrice.toLocaleString()}원
+                      </span>
                     </td>
                   </tr>
                   <tr>
